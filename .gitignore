@@ -19,4 +19,8 @@ venv/
 .DS_Store
 Thumbs.db
 users.db
-fresh_venv
+fresh_venv.venv/
+fresh_venv/
+.idea/
+__pycache__/
+*.py[cod]
