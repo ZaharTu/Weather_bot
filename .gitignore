@@ -21,6 +21,4 @@ Thumbs.db
 users.db
 fresh_venv.venv/
 fresh_venv/
-.idea/
-__pycache__/
-*.py[cod]
+tokens.py

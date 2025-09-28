@@ -3,8 +3,9 @@ import re
 import aiohttp
 
 import keyboard
+import tokens
 
-key="5accca0b349f426144c855f9abec3dfa"
+key=tokens.Token_GeoCoder
 pattern_name='^\s*[A-Za-zА-Яа-яЁё\s-]+?\s*,\s*[A-Za-zА-Яа-яЁё\s-]+\s*$|^\s*[A-Za-zА-Яа-яЁё\s-]+\s*$'
 
 

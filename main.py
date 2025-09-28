@@ -1,12 +1,14 @@
 import asyncio
 
 from aiogram import Bot,Dispatcher
+
+import tokens
 from handler import ro
 
 
 
 async def main():
-    bot = Bot(token="8417812268:AAHroxPFpPj69TPu-4fVZbQ3XmRqjpt_UdA")
+    bot = Bot(token=tokens.Token_TG)
     dp = Dispatcher()
     dp.include_router(ro)
     await dp.start_polling(bot)
